@@ -6,14 +6,14 @@
 
 ![Python](https://img.shields.io/badge/python-3.9+-3776AB?style=flat-square&logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![CI](https://img.shields.io/github/actions/workflow/status/yourusername/readme-ai/ci.yml?style=flat-square&label=CI)
+![CI](https://github.com/surfruit/readme-ai/actions/workflows/ci.yml/badge.svg)
 ![PyPI](https://img.shields.io/pypi/v/readme-ai-cli?style=flat-square)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
 
 <br/>
 
 ```bash
-pip install readme-ai && readme-ai analyze ./your-project
+pip install readme-ai-cli && readme-ai analyze ./your-project
 ```
 
 <br/>

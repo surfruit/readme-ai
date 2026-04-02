@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "readme-ai"
+name = "readme-ai-cli"
 version = "0.1.0"
 description = "Generate beautiful READMEs from your actual code, not templates"
 readme = "README.md"
@@ -45,9 +45,9 @@ dev = [
 readme-ai = "readme_ai.cli:app"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/readme-ai"
-Repository = "https://github.com/yourusername/readme-ai"
-Issues = "https://github.com/yourusername/readme-ai/issues"
+Homepage = "https://github.com/surfruit/readme-ai"
+Repository = "https://github.com/surfruit/readme-ai"
+Issues = "https://github.com/surfruit/readme-ai/issues"
 
 [tool.ruff]
 line-length = 100
@@ -63,3 +63,6 @@ asyncio_mode = "auto"
 [tool.coverage.run]
 source = ["readme_ai"]
 omit = ["tests/*"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["readme_ai"]

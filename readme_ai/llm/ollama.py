@@ -7,7 +7,7 @@ from typing import TYPE_CHECKING, Optional
 
 import httpx
 
-from readme_ai.llm.base import BaseLLMClient, GeneratedContent, SYSTEM_PROMPT, build_user_prompt
+from readme_ai.llm.base import BaseLLMClient, GeneratedContent
 
 if TYPE_CHECKING:
     from readme_ai.analyzer import ProjectInfo

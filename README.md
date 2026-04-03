@@ -62,7 +62,7 @@ and writes a README that's actually accurate.
 ### From PyPI (recommended)
 
 ```bash
-pip install readme-ai
+pip install readme-ai-cli
 ```
 
 ### From source
